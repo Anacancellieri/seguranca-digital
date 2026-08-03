@@ -1,0 +1,1006 @@
+/* =========================
+   CONFIGURAÇÕES GERAIS
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    background: #f5f7fb;
+
+    color: #1d2742;
+
+    line-height: 1.6;
+}
+
+
+/* =========================
+   CORES
+========================= */
+
+:root {
+
+    --azul: #526cf5;
+
+    --azul-escuro: #111b3d;
+
+    --roxo: #7357e8;
+
+    --cinza: #69738b;
+
+    --fundo: #f5f7fb;
+
+    --branco: #ffffff;
+
+    --borda: #e4e7ef;
+
+}
+
+
+/* =========================
+   CABEÇALHO
+========================= */
+
+.header {
+
+    height: 72px;
+
+    background: white;
+
+    border-bottom: 1px solid var(--borda);
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 0 7%;
+
+    position: sticky;
+
+    top: 0;
+
+    z-index: 100;
+
+}
+
+
+.logo {
+
+    text-decoration: none;
+
+    color: var(--azul-escuro);
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+}
+
+
+.logo span {
+
+    color: var(--azul);
+
+}
+
+
+nav {
+
+    display: flex;
+
+    gap: 28px;
+
+}
+
+
+nav a {
+
+    text-decoration: none;
+
+    color: var(--cinza);
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+}
+
+
+nav a:hover {
+
+    color: var(--azul);
+
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+
+    min-height: 620px;
+
+    padding: 80px 7%;
+
+    display: grid;
+
+    grid-template-columns: 1.1fr 0.9fr;
+
+    gap: 70px;
+
+    align-items: center;
+
+    background:
+        linear-gradient(
+            135deg,
+            #eef1ff,
+            #ffffff
+        );
+
+}
+
+
+.tag {
+
+    display: inline-block;
+
+    color: var(--azul);
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    letter-spacing: 1.5px;
+
+    margin-bottom: 15px;
+
+}
+
+
+.hero h1 {
+
+    font-size: clamp(
+        42px,
+        5vw,
+        68px
+    );
+
+    line-height: 1.05;
+
+    letter-spacing: -2px;
+
+    color: var(--azul-escuro);
+
+}
+
+
+.hero h1 span {
+
+    color: var(--azul);
+
+}
+
+
+.hero p {
+
+    color: var(--cinza);
+
+    font-size: 18px;
+
+    max-width: 620px;
+
+    margin: 25px 0 30px;
+
+}
+
+
+/* BOTÕES */
+
+.buttons {
+
+    display: flex;
+
+    gap: 12px;
+
+    flex-wrap: wrap;
+
+}
+
+
+.button {
+
+    padding: 14px 20px;
+
+    border-radius: 12px;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    display: inline-block;
+
+}
+
+
+.primary {
+
+    background: var(--azul);
+
+    color: white;
+
+}
+
+
+.secondary {
+
+    background: white;
+
+    color: var(--azul-escuro);
+
+    border: 1px solid var(--borda);
+
+}
+
+
+/* CARD HERO */
+
+.hero-card {
+
+    background: var(--azul-escuro);
+
+    color: white;
+
+    padding: 38px;
+
+    border-radius: 28px;
+
+    box-shadow:
+        0 25px 60px
+        rgba(16, 26, 58, 0.18);
+
+}
+
+
+.shield {
+
+    font-size: 50px;
+
+}
+
+
+.hero-card h2 {
+
+    font-size: 27px;
+
+    margin: 12px 0 5px;
+
+}
+
+
+.hero-card > p {
+
+    color: #c1c8df;
+
+    font-size: 15px;
+
+    margin-bottom: 20px;
+
+}
+
+
+.security-item {
+
+    display: flex;
+
+    gap: 15px;
+
+    align-items: center;
+
+    padding: 15px 0;
+
+    border-top:
+        1px solid
+        rgba(255,255,255,0.12);
+
+}
+
+
+.security-item strong {
+
+    color: #8fa1ff;
+
+}
+
+
+.security-item span {
+
+    color: #d8dcef;
+
+    font-size: 14px;
+
+}
+
+
+/* =========================
+   SEÇÕES
+========================= */
+
+.section {
+
+    padding: 90px 7%;
+
+    max-width: 1250px;
+
+    margin: auto;
+
+}
+
+
+.gray {
+
+    max-width: none;
+
+    background: white;
+
+}
+
+
+.section-title {
+
+    max-width: 720px;
+
+    text-align: center;
+
+    margin: 0 auto 45px;
+
+}
+
+
+.section-title h2 {
+
+    font-size: 38px;
+
+    line-height: 1.2;
+
+    color: var(--azul-escuro);
+
+}
+
+
+.section-title p {
+
+    color: var(--cinza);
+
+    margin-top: 10px;
+
+}
+
+
+/* =========================
+   GERADOR
+========================= */
+
+.password-container {
+
+    max-width: 760px;
+
+    margin: auto;
+
+    background: white;
+
+    border: 1px solid var(--borda);
+
+    border-radius: 24px;
+
+    padding: 30px;
+
+    box-shadow:
+        0 15px 45px
+        rgba(25, 35, 75, 0.08);
+
+}
+
+
+/* SENHA */
+
+.password-area {
+
+    display: flex;
+
+    gap: 10px;
+
+}
+
+
+.password-area input {
+
+    flex: 1;
+
+    border: 1px solid var(--borda);
+
+    background: #f8f9fd;
+
+    border-radius: 12px;
+
+    padding: 15px;
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+    color: var(--azul-escuro);
+
+    outline: none;
+
+}
+
+
+.password-area button {
+
+    width: 55px;
+
+    border: 1px solid var(--borda);
+
+    background: white;
+
+    border-radius: 12px;
+
+    font-size: 20px;
+
+    cursor: pointer;
+
+}
+
+
+/* FORÇA */
+
+.strength-container {
+
+    margin: 25px 0;
+
+}
+
+
+.strength-info {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    font-size: 14px;
+
+}
+
+
+.strength-info strong {
+
+    color: var(--azul);
+
+}
+
+
+.strength-bar {
+
+    height: 8px;
+
+    background: #e8eaf1;
+
+    border-radius: 20px;
+
+    margin-top: 8px;
+
+    overflow: hidden;
+
+}
+
+
+#strengthBar {
+
+    height: 100%;
+
+    width: 0;
+
+    transition: 0.3s;
+
+}
+
+
+/* TAMANHO */
+
+.length-container {
+
+    margin-bottom: 25px;
+
+}
+
+
+.length-container label {
+
+    display: block;
+
+    margin-bottom: 10px;
+
+}
+
+
+.length-container input {
+
+    width: 100%;
+
+    accent-color: var(--azul);
+
+}
+
+
+/* OPÇÕES */
+
+.options {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 15px;
+
+    margin-bottom: 25px;
+
+}
+
+
+.options label {
+
+    color: var(--cinza);
+
+    font-size: 14px;
+
+}
+
+
+.options input {
+
+    accent-color: var(--azul);
+
+    margin-right: 7px;
+
+}
+
+
+/* BOTÃO GERAR */
+
+.generate-button {
+
+    width: 100%;
+
+    padding: 15px;
+
+    border: none;
+
+    border-radius: 12px;
+
+    background: var(--azul);
+
+    color: white;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+}
+
+
+.generate-button:hover {
+
+    opacity: 0.9;
+
+}
+
+
+.copy-message {
+
+    height: 22px;
+
+    text-align: center;
+
+    color: #369b67;
+
+    font-size: 13px;
+
+    margin-top: 8px;
+
+}
+
+
+/* AVISO */
+
+.warning {
+
+    max-width: 760px;
+
+    margin: 20px auto;
+
+    background: #eef1ff;
+
+    border: 1px solid #dfe4ff;
+
+    padding: 15px 18px;
+
+    border-radius: 14px;
+
+    display: flex;
+
+    gap: 12px;
+
+    color: #4d5670;
+
+    font-size: 14px;
+
+}
+
+
+/* =========================
+   CARDS DE GOLPES
+========================= */
+
+.cards {
+
+    max-width: 1100px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 20px;
+
+}
+
+
+.card {
+
+    background: white;
+
+    border: 1px solid var(--borda);
+
+    border-radius: 20px;
+
+    padding: 26px;
+
+}
+
+
+.card-icon {
+
+    font-size: 32px;
+
+    margin-bottom: 10px;
+
+}
+
+
+.card h3 {
+
+    font-size: 20px;
+
+    margin-bottom: 8px;
+
+}
+
+
+.card p {
+
+    color: var(--cinza);
+
+    font-size: 14px;
+
+}
+
+
+.alert {
+
+    background: #fff4f1;
+
+    color: #76544d;
+
+    padding: 12px;
+
+    border-radius: 10px;
+
+    margin-top: 18px;
+
+    font-size: 13px;
+
+}
+
+
+/* =========================
+   DICAS
+========================= */
+
+.tips {
+
+    max-width: 1050px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 20px;
+
+}
+
+
+.tip {
+
+    display: flex;
+
+    gap: 18px;
+
+    background: white;
+
+    border: 1px solid var(--borda);
+
+    border-radius: 18px;
+
+    padding: 22px;
+
+}
+
+
+.tip > span {
+
+    color: var(--azul);
+
+    font-weight: bold;
+
+    font-size: 18px;
+
+}
+
+
+.tip h3 {
+
+    font-size: 17px;
+
+}
+
+
+.tip p {
+
+    color: var(--cinza);
+
+    font-size: 14px;
+
+    margin-top: 4px;
+
+}
+
+
+/* =========================
+   QUIZ
+========================= */
+
+.quiz {
+
+    margin: 0 7% 80px;
+
+    padding: 45px 5%;
+
+    border-radius: 25px;
+
+    background:
+        linear-gradient(
+            135deg,
+            var(--azul-escuro),
+            #283a78
+        );
+
+    color: white;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 40px;
+
+}
+
+
+.quiz h2 {
+
+    font-size: 32px;
+
+}
+
+
+.quiz p {
+
+    color: #d5daf0;
+
+    max-width: 650px;
+
+}
+
+
+.quiz-button {
+
+    padding: 12px 15px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    margin: 4px;
+
+    cursor: pointer;
+
+    font-weight: bold;
+
+}
+
+
+#quizResult {
+
+    margin-top: 12px;
+
+    font-weight: bold;
+
+}
+
+
+/* =========================
+   RODAPÉ
+========================= */
+
+footer {
+
+    text-align: center;
+
+    background: #0b122b;
+
+    color: #d5daf0;
+
+    padding: 30px;
+
+}
+
+
+footer p {
+
+    color: #8f99b7;
+
+    font-size: 13px;
+
+    margin-top: 5px;
+
+}
+
+
+/* =========================
+   RESPONSIVIDADE
+========================= */
+
+@media (max-width: 850px) {
+
+    .hero {
+
+        grid-template-columns: 1fr;
+
+        gap: 40px;
+
+    }
+
+
+    .cards {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .tips {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .quiz {
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .header {
+
+        padding: 0 5%;
+
+    }
+
+
+    nav {
+
+        gap: 10px;
+
+    }
+
+
+    nav a {
+
+        font-size: 12px;
+
+    }
+
+
+    .hero {
+
+        padding: 60px 5%;
+
+    }
+
+
+    .section {
+
+        padding: 70px 5%;
+
+    }
+
+
+    .hero h1 {
+
+        font-size: 42px;
+
+    }
+
+
+    .options {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .password-area input {
+
+        font-size: 15px;
+
+    }
+
+
+    .quiz {
+
+        margin-left: 5%;
+
+        margin-right: 5%;
+
+    }
+
+}

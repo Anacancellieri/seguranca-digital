@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Oficina de segurança digital para pessoas em busca de emprego."
+    >
+
+    <title>Segurança Digital | Busca de Emprego</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================
+         CABEÇALHO
+    ========================== -->
+
+    <header class="header">
+
+        <a href="#inicio" class="logo">
+            🛡️ Segurança<span>Digital</span>
+        </a>
+
+
+        <nav>
+
+            <a href="#inicio">
+                Início
+            </a>
+
+            <a href="#senhas">
+                Senhas
+            </a>
+
+            <a href="#golpes">
+                Golpes
+            </a>
+
+            <a href="#dicas">
+                Dicas
+            </a>
+
+        </nav>
+
+    </header>
+
+
+
+    <main>
+
+
+        <!-- =========================
+             SEÇÃO INICIAL
+        ========================== -->
+
+        <section id="inicio" class="hero">
+
+
+            <div class="hero-content">
+
+                <span class="tag">
+                    OFICINA DE SEGURANÇA DIGITAL
+                </span>
+
+
+                <h1>
+
+                    Busque seu próximo emprego com
+
+                    <span>
+                        mais segurança.
+                    </span>
+
+                </h1>
+
+
+                <p>
+
+                    Aprenda a proteger suas contas,
+                    identificar falsas oportunidades
+                    e cuidar dos seus dados durante
+                    processos seletivos online.
+
+                </p>
+
+
+                <div class="buttons">
+
+                    <a
+                        href="#senhas"
+                        class="button primary"
+                    >
+                        Criar senha segura
+                    </a>
+
+
+                    <a
+                        href="#golpes"
+                        class="button secondary"
+                    >
+                        Ver golpes comuns
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="hero-card">
+
+                <div class="shield">
+                    🛡️
+                </div>
+
+
+                <h2>
+                    Proteja seus dados
+                </h2>
+
+
+                <p>
+                    Informação é uma das melhores
+                    formas de prevenção contra
+                    golpes digitais.
+                </p>
+
+
+                <div class="security-item">
+
+                    <strong>
+                        01
+                    </strong>
+
+                    <span>
+                        Desconfie de promessas fáceis.
+                    </span>
+
+                </div>
+
+
+                <div class="security-item">
+
+                    <strong>
+                        02
+                    </strong>
+
+                    <span>
+                        Verifique antes de clicar.
+                    </span>
+
+                </div>
+
+
+                <div class="security-item">
+
+                    <strong>
+                        03
+                    </strong>
+
+                    <span>
+                        Nunca compartilhe suas senhas.
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             GERADOR DE SENHAS
+        ========================== -->
+
+        <section
+            id="senhas"
+            class="section"
+        >
+
+            <div class="section-title">
+
+                <span class="tag">
+                    FERRAMENTA INTERATIVA
+                </span>
+
+
+                <h2>
+                    Gerador de senhas seguras
+                </h2>
+
+
+                <p>
+
+                    Crie uma senha aleatória e
+                    aprenda como utilizar diferentes
+                    tipos de caracteres para aumentar
+                    a segurança.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="password-container">
+
+
+                <div class="password-area">
+
+                    <input
+                        type="text"
+                        id="password"
+                        readonly
+                        placeholder="Sua senha aparecerá aqui"
+                    >
+
+
+                    <button
+                        id="copyButton"
+                        title="Copiar senha"
+                    >
+                        📋
+                    </button>
+
+                </div>
+
+
+
+                <!-- FORÇA -->
+
+                <div class="strength-container">
+
+                    <div class="strength-info">
+
+                        <span>
+                            Força da senha
+                        </span>
+
+
+                        <strong id="strengthText">
+                            -
+                        </strong>
+
+                    </div>
+
+
+                    <div class="strength-bar">
+
+                        <div
+                            id="strengthBar"
+                        ></div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- TAMANHO -->
+
+                <div class="length-container">
+
+                    <label for="length">
+
+                        Comprimento:
+
+                        <strong id="lengthValue">
+                            14
+                        </strong>
+
+                    </label>
+
+
+                    <input
+                        type="range"
+                        id="length"
+                        min="8"
+                        max="32"
+                        value="14"
+                    >
+
+                </div>
+
+
+
+                <!-- OPÇÕES -->
+
+                <div class="options">
+
+                    <label>
+
+                        <input
+                            type="checkbox"
+                            id="uppercase"
+                            checked
+                        >
+
+                        Letras maiúsculas
+
+                    </label>
+
+
+                    <label>
+
+                        <input
+                            type="checkbox"
+                            id="lowercase"
+                            checked
+                        >
+
+                        Letras minúsculas
+
+                    </label>
+
+
+                    <label>
+
+                        <input
+                            type="checkbox"
+                            id="numbers"
+                            checked
+                        >
+
+                        Números
+
+                    </label>
+
+
+                    <label>
+
+                        <input
+                            type="checkbox"
+                            id="symbols"
+                            checked
+                        >
+
+                        Símbolos
+
+                    </label>
+
+                </div>
+
+
+
+                <button
+                    id="generateButton"
+                    class="generate-button"
+                >
+                    🔐 Gerar nova senha
+                </button>
+
+
+                <p
+                    id="copyMessage"
+                    class="copy-message"
+                ></p>
+
+            </div>
+
+
+
+            <div class="warning">
+
+                <span>
+                    💡
+                </span>
+
+                <p>
+
+                    <strong>
+                        Dica:
+                    </strong>
+
+                    utilize senhas diferentes
+                    para contas diferentes e
+                    nunca compartilhe suas senhas.
+
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             GOLPES
+        ========================== -->
+
+        <section
+            id="golpes"
+            class="section gray"
+        >
+
+            <div class="section-title">
+
+                <span class="tag">
+                    FIQUE ATENTO
+                </span>
+
+
+                <h2>
+                    Golpes comuns em vagas de emprego
+                </h2>
+
+
+                <p>
+
+                    Durante uma busca por emprego,
+                    alguns golpes podem parecer
+                    oportunidades reais.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="cards">
+
+
+                <!-- CARD 1 -->
+
+                <article class="card">
+
+                    <div class="card-icon">
+                        💼
+                    </div>
+
+
+                    <h3>
+                        Vaga falsa
+                    </h3>
+
+
+                    <p>
+
+                        O golpista oferece uma vaga
+                        aparentemente excelente e
+                        solicita dinheiro para
+                        garantir a contratação.
+
+                    </p>
+
+
+                    <div class="alert">
+
+                        🚩
+
+                        <strong>
+                            Sinal de alerta:
+                        </strong>
+
+                        cobrança de dinheiro
+                        para conseguir a vaga.
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- CARD 2 -->
+
+                <article class="card">
+
+                    <div class="card-icon">
+                        🔗
+                    </div>
+
+
+                    <h3>
+                        Link suspeito
+                    </h3>
+
+
+                    <p>
+
+                        Uma mensagem informa que você
+                        foi selecionado e pede que
+                        clique em um link para
+                        confirmar seus dados.
+
+                    </p>
+
+
+                    <div class="alert">
+
+                        🚩
+
+                        <strong>
+                            Sinal de alerta:
+                        </strong>
+
+                        endereço estranho ou
+                        mensagem muito urgente.
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- CARD 3 -->
+
+                <article class="card">
+
+                    <div class="card-icon">
+                        📱
+                    </div>
+
+
+                    <h3>
+                        Falso recrutador
+                    </h3>
+
+
+                    <p>
+
+                        Uma pessoa se apresenta como
+                        recrutadora e solicita
+                        informações desnecessárias,
+                        senhas ou códigos.
+
+                    </p>
+
+
+                    <div class="alert">
+
+                        🚩
+
+                        <strong>
+                            Sinal de alerta:
+                        </strong>
+
+                        pedido de senhas ou
+                        códigos de verificação.
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             DICAS
+        ========================== -->
+
+        <section
+            id="dicas"
+            class="section"
+        >
+
+            <div class="section-title">
+
+                <span class="tag">
+                    BOAS PRÁTICAS
+                </span>
+
+
+                <h2>
+                    Como se proteger durante
+                    a busca por emprego
+                </h2>
+
+            </div>
+
+
+
+            <div class="tips">
+
+
+                <div class="tip">
+
+                    <span>
+                        01
+                    </span>
+
+                    <div>
+
+                        <h3>
+                            Pesquise a empresa
+                        </h3>
+
+                        <p>
+
+                            Procure informações sobre
+                            a empresa e seus canais
+                            oficiais antes de fornecer
+                            dados pessoais.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="tip">
+
+                    <span>
+                        02
+                    </span>
+
+                    <div>
+
+                        <h3>
+                            Desconfie de cobranças
+                        </h3>
+
+                        <p>
+
+                            Tenha cuidado com pessoas
+                            que exigem pagamentos para
+                            participar de processos
+                            seletivos.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="tip">
+
+                    <span>
+                        03
+                    </span>
+
+                    <div>
+
+                        <h3>
+                            Proteja seus documentos
+                        </h3>
+
+                        <p>
+
+                            Evite enviar documentos
+                            pessoais para contatos
+                            que você não conseguiu
+                            verificar.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="tip">
+
+                    <span>
+                        04
+                    </span>
+
+                    <div>
+
+                        <h3>
+                            Não compartilhe códigos
+                        </h3>
+
+                        <p>
+
+                            Códigos recebidos por SMS
+                            ou aplicativos são pessoais.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="tip">
+
+                    <span>
+                        05
+                    </span>
+
+                    <div>
+
+                        <h3>
+                            Verifique os links
+                        </h3>
+
+                        <p>
+
+                            Antes de clicar, observe
+                            o endereço do site e
+                            procure sinais estranhos.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="tip">
+
+                    <span>
+                        06
+                    </span>
+
+                    <div>
+
+                        <h3>
+                            Utilize senhas diferentes
+                        </h3>
+
+                        <p>
+
+                            Evite utilizar a mesma
+                            senha em várias contas.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             QUIZ
+        ========================== -->
+
+        <section class="quiz">
+
+            <div>
+
+                <span class="tag">
+                    DESAFIO RÁPIDO
+                </span>
+
+
+                <h2>
+                    Vaga segura ou golpe?
+                </h2>
+
+
+                <p>
+
+                    Uma empresa pede R$ 80 para
+                    "liberar" sua vaga depois
+                    de uma entrevista.
+
+                    O que você faria?
+
+                </p>
+
+            </div>
+
+
+
+            <div class="quiz-area">
+
+                <button
+                    class="quiz-button"
+                    data-answer="wrong"
+                >
+                    💸 Pagaria a taxa
+                </button>
+
+
+                <button
+                    class="quiz-button"
+                    data-answer="correct"
+                >
+                    🔎 Verificaria primeiro
+                </button>
+
+
+                <p id="quizResult"></p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =========================
+         RODAPÉ
+    ========================== -->
+
+    <footer>
+
+        <h3>
+            🛡️ Segurança Digital
+        </h3>
+
+
+        <p>
+            Projeto extensionista •
+            Segurança digital para pessoas
+            em busca de emprego.
+        </p>
+
+    </footer>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
