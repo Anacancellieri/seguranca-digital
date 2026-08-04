@@ -2,7 +2,7 @@ Segurança Digital para Busca de Emprego
 
 > Projeto extensionista voltado à educação digital e à proteção de pessoas em busca de oportunidades de emprego.
 
-📌 Sobre o projeto
+  Sobre o projeto
 
 O projeto **Segurança Digital para Busca de Emprego** foi desenvolvido com o objetivo de orientar pessoas que estão procurando oportunidades profissionais sobre cuidados básicos de segurança no ambiente digital.
 
@@ -12,7 +12,7 @@ Além do conteúdo educativo, o projeto conta com ferramentas interativas para t
 
 ---
 
-🎯 Objetivos
+   Objetivos
 
 - 🔐 Ensinar boas práticas para criação e utilização de senhas seguras;
 - 🛡️ Orientar sobre a proteção de dados pessoais;
@@ -23,9 +23,9 @@ Além do conteúdo educativo, o projeto conta com ferramentas interativas para t
 
 ---
 
-🚀 Funcionalidades
+   Funcionalidades
 
-🔐 Gerador de senhas
+   Gerador de senhas
 
 Permite criar senhas aleatórias personalizadas, escolhendo:
 
@@ -37,7 +37,7 @@ Permite criar senhas aleatórias personalizadas, escolhendo:
 
 O sistema também apresenta uma indicação da força da senha gerada.
 
-🚨 Exemplos de golpes
+   Exemplos de golpes
 
 Apresenta situações comuns que podem ocorrer durante a busca por emprego, como:
 
@@ -47,7 +47,7 @@ Apresenta situações comuns que podem ocorrer durante a busca por emprego, como
 - Solicitação de pagamentos;
 - Solicitação indevida de dados pessoais.
 
-💡 Dicas de segurança
+   Dicas de segurança
 
 O projeto apresenta recomendações para ajudar o usuário a:
 
@@ -58,13 +58,13 @@ O projeto apresenta recomendações para ajudar o usuário a:
 - Verificar links antes de acessá-los;
 - Utilizar senhas diferentes em diferentes contas.
 
-🧠 Quiz educativo
+   Quiz educativo
 
 O usuário pode responder a uma situação relacionada a uma possível vaga falsa e receber um feedback imediato sobre a escolha realizada.
 
 ---
 
-🛠️ Tecnologias utilizadas
+   Tecnologias utilizadas
 
 | Tecnologia | Utilização |
 |---|---|
@@ -77,7 +77,7 @@ O usuário pode responder a uma situação relacionada a uma possível vaga fals
 
 ---
 
-📱 Responsividade
+   Responsividade
 
 O projeto foi desenvolvido para funcionar em diferentes tamanhos de tela, permitindo sua utilização em:
 
@@ -87,7 +87,7 @@ O projeto foi desenvolvido para funcionar em diferentes tamanhos de tela, permit
 
 ---
 
-🎓 Projeto Extensionista
+   Projeto Extensionista
 
 Este projeto foi desenvolvido como parte de uma atividade extensionista acadêmica, utilizando tecnologia para promover conhecimento e contribuir com a comunidade local.
 
@@ -101,7 +101,7 @@ Tema
 
 ---
 
-📂 Estrutura do projeto
+   Estrutura do projeto
 
 ```text
 seguranca-digital/
