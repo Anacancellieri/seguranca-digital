@@ -1,16 +1,16 @@
 Segurança Digital para Busca de Emprego
 
-> Projeto extensionista voltado à educação digital e à proteção de pessoas em busca de oportunidades de emprego.
+> Atividade extensionista voltada a educação digital e a proteção de pessoas em busca de oportunidades de emprego.
 
-  Sobre o projeto
+  Sobre a atividade
 
-O projeto **Segurança Digital para Busca de Emprego** foi desenvolvido com o objetivo de orientar pessoas que estão procurando oportunidades profissionais sobre cuidados básicos de segurança no ambiente digital.
+A atividade **Segurança Digital para Busca de Emprego** foi desenvolvida com o objetivo de orientar pessoas que estão procurando oportunidades profissionais sobre cuidados básicos de segurança no ambiente digital.
 
-Durante a busca por emprego, candidatos podem entrar em contato com vagas falsas, links suspeitos e pessoas que se passam por recrutadores. Por isso, o projeto apresenta informações simples e práticas para ajudar na identificação de possíveis golpes e na proteção de dados pessoais.
+Durante a busca por emprego, candidatos podem entrar em contato com vagas falsas, links suspeitos e pessoas que se passam por recrutadores. Por isso, a atividade apresenta informações simples e práticas para ajudar na identificação de possíveis golpes e na proteção de dados pessoais.
 
 Além do conteúdo educativo, o projeto conta com ferramentas interativas para tornar o aprendizado mais prático.
 
----
+
 
    Objetivos
 
@@ -21,7 +21,7 @@ Além do conteúdo educativo, o projeto conta com ferramentas interativas para t
 - 💻 Desenvolver uma ferramenta web educativa e interativa;
 - 📚 Promover conhecimentos básicos de segurança digital.
 
----
+
 
    Funcionalidades
 
@@ -49,7 +49,7 @@ Apresenta situações comuns que podem ocorrer durante a busca por emprego, como
 
    Dicas de segurança
 
-O projeto apresenta recomendações para ajudar o usuário a:
+A atividade apresenta recomendações para ajudar o usuário a:
 
 - Verificar a empresa antes de fornecer informações;
 - Evitar pagamentos para participar de processos seletivos;
@@ -60,9 +60,9 @@ O projeto apresenta recomendações para ajudar o usuário a:
 
    Quiz educativo
 
-O usuário pode responder a uma situação relacionada a uma possível vaga falsa e receber um feedback imediato sobre a escolha realizada.
+O usuário pode responder a uma situação relacionada a uma possível vaga falsa e receber uma respostade imediato sobre a escolha realizada.
 
----
+
 
    Tecnologias utilizadas
 
@@ -75,19 +75,19 @@ O usuário pode responder a uma situação relacionada a uma possível vaga fals
 | GitHub | Hospedagem do código |
 | GitHub Pages | Publicação do site |
 
----
+
 
    Responsividade
 
-O projeto foi desenvolvido para funcionar em diferentes tamanhos de tela, permitindo sua utilização em:
+A atividade foi desenvolvido para funcionar em diferentes tamanhos de tela, permitindo sua utilização em:
 
 - 💻 Computadores;
 - 📱 Smartphones;
 - 📲 Tablets.
 
----
 
-   Projeto Extensionista
+
+   Atividade Extensionista
 
 Este projeto foi desenvolvido como parte de uma atividade extensionista acadêmica, utilizando tecnologia para promover conhecimento e contribuir com a comunidade local.
 
@@ -99,7 +99,7 @@ Tema
 
 **Segurança digital e prevenção de golpes durante a busca por emprego.**
 
----
+
 
    Estrutura do projeto
 
