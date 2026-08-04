@@ -79,10 +79,6 @@ function randomCharacter(text) {
 
 
 
-/* =========================
-   GERAR SENHA
-========================= */
-
 function generatePassword() {
 
 
@@ -105,8 +101,6 @@ function generatePassword() {
     }
 
 
-
-    /* MINÚSCULAS */
 
     if (lowercase.checked) {
 
